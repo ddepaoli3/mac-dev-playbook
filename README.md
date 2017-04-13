@@ -13,6 +13,17 @@ This is a work in progress, and is mostly a means for me to document my current 
   - [osxc](https://github.com/osxc)
   - [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks) (the original inspiration for this project)
 
+## Prerequisities
+  1. Install from app store xcode
+  2. xcode-select --install and accept
+  3. [Install brew](https://brew.sh/)
+  4. Install python ```brew install python```
+  5. ```pip install virtualenv virtualenvwrapper```
+  6. ```source /usr/local/bin/virtualenvwrapper.sh```
+  7. Create virtualenv with pip
+  8. Edit default.config.yml file with application to install. To search application: ```brew cask search application_name```
+  9. Run this playbook
+
 ## Installation
 
   1. [Install Ansible](http://docs.ansible.com/intro_installation.html).
