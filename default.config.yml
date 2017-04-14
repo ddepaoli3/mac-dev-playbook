@@ -5,7 +5,7 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/ddepaoli3/dotfiles.git
+dotfiles_repo: git@github.com:ddepaoli3/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/workspace/dotfiles
 dotfiles_files:
@@ -16,6 +16,7 @@ dotfiles_files:
   - .osx
   - .vimrc
   - .zshrc
+  - .bash_aliases
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -29,6 +30,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   - wget
+  - p7zip
 
 homebrew_taps:
   - homebrew/core
