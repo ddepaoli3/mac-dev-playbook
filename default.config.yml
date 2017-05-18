@@ -32,6 +32,8 @@ homebrew_installed_packages:
   - wget
   - p7zip
   - pass
+  - packer
+  - node
 
 homebrew_taps:
   - homebrew/core
