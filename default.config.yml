@@ -36,7 +36,9 @@ homebrew_installed_packages:
   - node
   - openssl
   - tig
-
+  - git-crypt
+  - ruby
+  - python3
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
@@ -78,7 +80,7 @@ homebrew_cask_apps:
   - fritzing
   - wakeonlan
   - torbrowser
-
+  - avidemux
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
 mas_email: ""
